@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/main.cpp
+source/Game.h
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/source/Game.h
+
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/source/Game.cpp
+Game.h
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/source/Game.h
+
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/source/Game.h
+SFML/Graphics.hpp
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/source/SFML/Graphics.hpp
+SFML/Window.hpp
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/source/SFML/Window.hpp
+SFML/Audio.hpp
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/source/SFML/Audio.hpp
+SFML/System.hpp
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/source/SFML/System.hpp
+SFML/Network.hpp
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/source/SFML/Network.hpp
+

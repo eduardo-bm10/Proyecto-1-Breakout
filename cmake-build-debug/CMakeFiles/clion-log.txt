@@ -1,0 +1,4 @@
+/home/eduardo/Descargas/CLion-2021.2/clion-2021.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/eduardo/Documentos/GitHub/Proyecto-1-Breakout
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/cmake-build-debug
