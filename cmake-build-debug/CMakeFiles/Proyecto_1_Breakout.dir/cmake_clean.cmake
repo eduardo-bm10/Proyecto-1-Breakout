@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto_1_Breakout.dir/objects/Ball.cpp.o"
   "CMakeFiles/Proyecto_1_Breakout.dir/objects/Bar.cpp.o"
   "CMakeFiles/Proyecto_1_Breakout.dir/objects/Block.cpp.o"
+  "CMakeFiles/Proyecto_1_Breakout.dir/objects/Object.cpp.o"
   "CMakeFiles/Proyecto_1_Breakout.dir/source/Game.cpp.o"
   "Proyecto_1_Breakout"
   "Proyecto_1_Breakout.pdb"

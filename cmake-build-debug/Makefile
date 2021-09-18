@@ -369,6 +369,30 @@ objects/Block.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_1_Breakout.dir/build.make CMakeFiles/Proyecto_1_Breakout.dir/objects/Block.cpp.s
 .PHONY : objects/Block.cpp.s
 
+objects/Object.o: objects/Object.cpp.o
+.PHONY : objects/Object.o
+
+# target to build an object file
+objects/Object.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_1_Breakout.dir/build.make CMakeFiles/Proyecto_1_Breakout.dir/objects/Object.cpp.o
+.PHONY : objects/Object.cpp.o
+
+objects/Object.i: objects/Object.cpp.i
+.PHONY : objects/Object.i
+
+# target to preprocess a source file
+objects/Object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_1_Breakout.dir/build.make CMakeFiles/Proyecto_1_Breakout.dir/objects/Object.cpp.i
+.PHONY : objects/Object.cpp.i
+
+objects/Object.s: objects/Object.cpp.s
+.PHONY : objects/Object.s
+
+# target to generate assembly for a file
+objects/Object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Proyecto_1_Breakout.dir/build.make CMakeFiles/Proyecto_1_Breakout.dir/objects/Object.cpp.s
+.PHONY : objects/Object.cpp.s
+
 source/Game.o: source/Game.cpp.o
 .PHONY : source/Game.o
 
@@ -432,6 +456,9 @@ help:
 	@echo "... objects/Block.o"
 	@echo "... objects/Block.i"
 	@echo "... objects/Block.s"
+	@echo "... objects/Object.o"
+	@echo "... objects/Object.i"
+	@echo "... objects/Object.s"
 	@echo "... source/Game.o"
 	@echo "... source/Game.i"
 	@echo "... source/Game.s"

@@ -6,10 +6,6 @@
 #define PROYECTO_1_BREAKOUT_BLOCK_H
 
 #include "SFML/Graphics.hpp"
-#include "SFML/Window.hpp"
-#include "SFML/Audio.hpp"
-#include "SFML/System.hpp"
-#include "SFML/Network.hpp"
 
 using namespace sf;
 

@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/objects/Ball.cpp" "/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/cmake-build-debug/CMakeFiles/Proyecto_1_Breakout.dir/objects/Ball.cpp.o"
   "/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/objects/Bar.cpp" "/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/cmake-build-debug/CMakeFiles/Proyecto_1_Breakout.dir/objects/Bar.cpp.o"
   "/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/objects/Block.cpp" "/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/cmake-build-debug/CMakeFiles/Proyecto_1_Breakout.dir/objects/Block.cpp.o"
+  "/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/objects/Object.cpp" "/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/cmake-build-debug/CMakeFiles/Proyecto_1_Breakout.dir/objects/Object.cpp.o"
   "/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/source/Game.cpp" "/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/cmake-build-debug/CMakeFiles/Proyecto_1_Breakout.dir/source/Game.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

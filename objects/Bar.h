@@ -6,7 +6,9 @@
 #define PROYECTO_1_BREAKOUT_BAR_H
 
 
-class Bar {
+#include "Object.h"
+
+class Bar: public Object {
 
 };
 
