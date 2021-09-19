@@ -11,9 +11,12 @@ protected:
     int positionX, positionY;
     int speed;
     bool onScreen;
-    virtual void movement();
 public:
     Object(int posX, int posY, int sp, bool screen);
+    int getPositionX() const;
+    int getPositionY() const;
+    int getSpeed() const;
+    bool getOnScreen() const;
 };
 
 

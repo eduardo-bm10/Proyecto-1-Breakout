@@ -11,8 +11,8 @@ using namespace sf;
  * @author Eduardo Bolivar
  * @return block
  */
-Block TripleBlockFactory::createBlock() {
-    Block block(3,20,false,false);
+Block TripleBlockFactory::createBlock(int positionX, int positionY) {
+    Block block(positionX, positionY, 0, false, 3, 20, false, false);
     block.getRect()->setSize(Vector2f(40.f, 10.f));
     block.getRect()->setFillColor(Color::Red);
     return block;

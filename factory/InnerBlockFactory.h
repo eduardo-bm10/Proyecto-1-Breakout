@@ -10,7 +10,7 @@
 
 class InnerBlockFactory: public BlockFactory {
 public:
-    Block createBlock() override;
+    Block createBlock(int positionX, int positionY) override;
 };
 
 

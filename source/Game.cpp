@@ -28,6 +28,10 @@ void Game::update() {
     }
 }
 
+void Game::initBlocks() {
+
+}
+
 void Game::render() {
     this->window->clear(Color::Blue);
     this->window->display();
@@ -35,4 +39,8 @@ void Game::render() {
 
 bool Game::isRunning() {
     return this->window->isOpen();
+}
+
+bool Game::collision(Object o) {
+
 }

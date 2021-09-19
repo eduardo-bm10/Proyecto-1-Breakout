@@ -4,8 +4,9 @@
 
 #include "Ball.h"
 
-Ball::Ball(int posX1, int posY1, int sp1, bool screen1) : Object(posX1, posY1, sp1, screen1) {
-    initBall(posX1, posY1);
+Ball::Ball(int posX, int posY, int sp, bool screen) : Object(posX, posY, sp, screen) {
+    initBall(posX, posY);
+    this->id = id1++;
     this->RIGHT = true;
     this->UP = true;
 }
@@ -15,33 +16,42 @@ Ball::~Ball() {
 }
 
 void Ball::initBall(int posX, int posY) {
-    this->positionX = posX;
-    this->positionY = posY;
     this->myBall = new CircleShape(10.f);
     myBall->setFillColor(Color::White);
     myBall->setPosition((float) posX, (float) posY);
     myBall->setOutlineColor(Color::Black);
 }
 
+void Ball::movement_X() {
+    while (this->onScreen) {
+        while (this->positionX > 0 && RIGHT) {
+            if (this->positionX >= 800) {
+                RIGHT = false;
+            }
+            myBall->setPosition((float) (this->positionX + this->speed), (float) this->positionY);
+        }
+        while (this->positionX < 800 && !RIGHT) {
+            if (this->positionX <= 0) {
+                RIGHT = true;
+            }
+            myBall->setPosition((float) (this->positionX - this->speed), (float) this->positionY);
+        }
+    }
+}
+
 void Ball::movement_Y() {
     while (this->onScreen) {
         while (this->positionY > 0 && UP) {
-            if (collide(blocks)) {
+            if (Game::collision(Game::blocks)) {
                 this->UP = false;
-                continue;
             }
-            this-> positionY += 10;
-            myBall->setPosition(this->positionX, this->positionY);
-            movement_X();
+            myBall->setPosition((float) this->positionX, (float) (this->positionY + this->speed));
         }
         while (this->positionY < 600 && !UP) {
-            if (collide(myBar)) {
+            if (Game::collision(Game::myBar)) {
                 this->UP = true;
-                continue;
             }
-            this->positionY -= 10;
-            myBall->setPosition(this->positionX, this->positionY);
-            movement_X();
+            myBall->setPosition((float) this->positionX, (float) (this->positionY - this->speed));
         }
     }
 }

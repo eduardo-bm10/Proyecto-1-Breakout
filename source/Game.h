@@ -10,6 +10,8 @@
 #include "SFML/Audio.hpp"
 #include "SFML/System.hpp"
 #include "SFML/Network.hpp"
+#include "../objects/Bar.h"
+#include "../objects/Block.h"
 
 using namespace sf;
 
@@ -24,10 +26,14 @@ private:
     Event ev;
     VideoMode videoMode;
     void initWindow();
+    void initBlocks();
 public:
+    static std::array<Block> blocks;
+    static Bar myBar;
     Game();
     ~Game();
     bool isRunning();
+    static bool collision(Object o);
     void update();
     void render();
 };

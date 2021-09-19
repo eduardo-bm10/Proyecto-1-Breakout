@@ -4,8 +4,9 @@
 
 #include "Block.h"
 
-Block::Block(int lives1, int points1, bool deep1, bool surprise1) {
+Block::Block(int posX, int posY, int sp, bool screen, int lives1, int points1, bool deep1, bool surprise1) : Object(posX, posY, sp, screen) {
     this->rect = new RectangleShape(Vector2f(50.f, 80.f));
+    this->id = id1++;
     this->lives = lives1;
     this->points = points1;
     this->deep = deep1;

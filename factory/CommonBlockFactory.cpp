@@ -11,8 +11,8 @@ using namespace sf;
  * @author Eduardo Bolivar
  * @return block
  */
-Block CommonBlockFactory::createBlock() {
-    Block block(1,10,false,false);
+Block CommonBlockFactory::createBlock(int positionX, int positionY) {
+    Block block(positionX, positionY, 0, true, 1, 10, false, false);
     block.getRect()->setSize(Vector2f(40.f, 10.f));
     block.getRect()->setFillColor(Color::Cyan);
     return block;

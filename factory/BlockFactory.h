@@ -9,7 +9,7 @@
 
 class BlockFactory {
 protected:
-    virtual Block createBlock();
+    virtual Block createBlock(int positionX, int positionY);
 };
 
 

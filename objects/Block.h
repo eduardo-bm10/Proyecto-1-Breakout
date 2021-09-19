@@ -6,6 +6,7 @@
 #define PROYECTO_1_BREAKOUT_BLOCK_H
 
 #include "SFML/Graphics.hpp"
+#include "Object.h"
 
 using namespace sf;
 
@@ -13,15 +14,17 @@ using namespace sf;
  * Class Block creates objects for the blocks that need to be destroyed.
  * Provides an array of block objects, and a constructor to define shapes and color of blocks.
  */
-class Block {
+class Block:public Object {
 private:
+    int id;
     RectangleShape* rect;
     int points;
     int lives;
     bool deep;
     bool surprise;
 public:
-    Block(int lives1, int points1, bool deep1, bool surprise1);
+    static int id1;
+    Block(int posX, int posY, int sp, bool screen, int lives1, int points1, bool deep1, bool surprise1);
     void hit();
     void destroy();
     bool isDeep() const;
