@@ -28,7 +28,7 @@ private:
     void initWindow();
     void initBlocks();
 public:
-    static std::array<Block> blocks;
+    static Block blocks[100];
     static Bar myBar;
     Game();
     ~Game();

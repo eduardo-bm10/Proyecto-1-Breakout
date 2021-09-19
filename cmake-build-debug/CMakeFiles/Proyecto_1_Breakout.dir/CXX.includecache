@@ -10,6 +10,32 @@
 source/Game.h
 /home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/source/Game.h
 
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/objects/Ball.cpp
+Ball.h
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/objects/Ball.h
+
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/objects/Ball.h
+../source/Game.h
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/source/Game.h
+SFML/Graphics.hpp
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/objects/SFML/Graphics.hpp
+Block.h
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/objects/Block.h
+Object.h
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/objects/Object.h
+
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/objects/Bar.h
+Object.h
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/objects/Object.h
+
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/objects/Block.h
+SFML/Graphics.hpp
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/objects/SFML/Graphics.hpp
+Object.h
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/objects/Object.h
+
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/objects/Object.h
+
 /home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/source/Game.cpp
 Game.h
 /home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/source/Game.h
@@ -25,4 +51,8 @@ SFML/System.hpp
 /home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/source/SFML/System.hpp
 SFML/Network.hpp
 /home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/source/SFML/Network.hpp
+../objects/Bar.h
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/objects/Bar.h
+../objects/Block.h
+/home/eduardo/Documentos/GitHub/Proyecto-1-Breakout/objects/Block.h
 

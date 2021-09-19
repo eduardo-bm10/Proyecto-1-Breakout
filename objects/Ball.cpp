@@ -42,8 +42,11 @@ void Ball::movement_X() {
 void Ball::movement_Y() {
     while (this->onScreen) {
         while (this->positionY > 0 && UP) {
-            if (Game::collision(Game::blocks)) {
-                this->UP = false;
+            for (Block b : Game::blocks) {
+                if (Game::collision(b)) {
+                    this->UP = false;
+                    continue;
+                }
             }
             myBall->setPosition((float) this->positionX, (float) (this->positionY + this->speed));
         }
